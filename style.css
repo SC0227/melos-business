@@ -1,0 +1,523 @@
+/*
+Theme Name: Melos Business
+Theme URI: https://www.thinkupthemes.com/free/melos/
+Author: Think Up Themes
+Author URI: https://www.thinkupthemes.com
+Description: Melos Business is the free version of the multi-purpose professional theme (Melos Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout.
+Template: melos
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, dark, orange, red, blue, one-column, two-columns, three-columns, right-sidebar, left-sidebar, fixed-layout, responsive-layout, fluid-layout, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, gray, light, white, custom-background, grid-layout, footer-widgets, blog, e-commerce, education, entertainment, news, photography, portfolio
+Text Domain: melos-business
+*/
+
+/* grid.css */
+.col-md-6,
+#sidebar
+{width: 50%;
+float: left
+;}
+ul.inline-list-2{display: flex;
+	margin: 26px 0;
+	list-style: none;
+}
+
+ul.inline-list-2 li{
+	display: block;
+	list-style-type: none;
+	line-height: 3.3em;
+	font-size: 2em;
+	margin-left: 1em;
+
+}
+/* grid.css */
+
+/* Services */
+section.container.service {
+	background-color: #FFF;
+}
+.services-builder.style1 {
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	transition: .3s;
+}
+.services-builder.style1:hover {
+	box-shadow: 1px 1px 5px #333;
+}
+.services-builder.style1 .iconmain .iconurl {
+	margin-top: -5px;
+}
+.services-builder.style1 .iconmain .iconurl a {
+	display: inline-block;
+	color: #1EAAF1 !important;
+	background: none;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+
+
+/* ◯◯ってどんな会社?*/
+h2.text-center.text-lg-left {
+	font-size: 40px;
+	font-weight: bold;
+	color: #48c0db;
+	margin: 0;
+}
+h6.small.normal.text-center.text-lg-left.text-primary {
+	color: #48c0db;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+p.big-1.offset-3.font-family-2.text-secondary-2 {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+a.btn.btn-md.btn-secondary-1.offset-3 {
+	background-color: #eb1a2f;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 16px 26px;
+}
+
+/* Pre Header */
+#section-home-inner .one_third {
+	width: 23%;
+}
+
+.services-builder.style1 .iconimage img {
+	border-radius: 111px;
+}
+
+div#pre-header {
+	height: 80px;
+}
+
+
+
+
+/* Header */
+.brand{
+	background-color: #eb1a2f;
+	padding: 30px 15px;
+	position: relative;
+	color: #fff;
+	width: 330px;
+	display: flex;
+	margin-left: 50px;
+}
+
+
+.brand a h1{color: #fff;    font-size: 3em;
+	width: 100%;
+	line-height: 1em;
+}
+.brand img{width: 72px;
+	height: 58px;
+	margin-right: 9px;
+	margin-top: 9px;
+}
+#pre-header-core {
+	height: 100%;
+	padding-left: 50px;
+}
+#pre-header .header-links > ul > li > a {
+	font-size: 15px;
+	font-weight: bold;
+}
+#pre-header .header-links > ul > li > a:hover {
+	background-color: #1EAAF1;
+}
+
+div#logo a h1{color: #fff;    font-size: 3em;
+	width: 92%;
+	line-height: 1em;
+}
+div#logo .custom-logo-link h1:before {
+	content: "";
+	position: absolute;
+	top: 41px;
+	left: 6px;
+	width: 55px;
+	height: 44px;
+	background-image: url(../images/brand-logo.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	background-size: 54px;
+}
+
+
+/* Intro */
+#intro #intro-core {
+	position: relative;
+	text-align: left;
+}
+#intro .page-title,
+#intro #breadcrumbs {
+	display: inline-block;
+}
+#intro .page-title {
+	padding: 0;
+	margin-left: 20px;
+}
+#intro .page-title:after {
+	bottom: -1px;
+	left: -20px;
+	right: auto;
+	height: 100%;
+	width: 0;
+	border-left: 3px solid #1EAAF1;
+}
+#intro #breadcrumbs {
+	position: absolute;
+	right: 0;
+	top: 30%;
+}
+
+/* Blog */
+.blog-thumb .image-overlay {
+	display: none;	
+}
+.blog-style1-layout1 .blog-article .entry-meta {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #E2E2E2;
+	-webkit-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-moz-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-ms-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-o-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+}
+
+/* Post Navigation */
+.nav-previous a,
+.nav-next a {
+	color: #fff;
+	background: #1EAAF1;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #fff;
+	background: #333;
+}
+
+/* Social Sharing */
+#sharepost {
+	padding: 15px 20px;
+}
+#shareicons a,
+#shareicons i {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+#shareicons a {
+	margin-right: 7px;
+	background: #d2d2d2;
+}
+#shareicons a:hover {
+	opacity: 0.8 !important;
+}
+#shareicons a.facebook {
+    background: #3b5997;
+}
+#shareicons a.twitter {
+	background: #a5dee8;
+}
+#shareicons a.google-plus {
+	background: #db4a39;
+}
+#shareicons a.instagram {
+	background: #AC8263;
+}
+#shareicons a.tumblr {
+	background: #395672;
+}
+#shareicons a.linkedin {
+	background: #56a1c4;
+}
+#shareicons a.flickr {
+	background: #c5c5c5;
+}
+#shareicons a.pinterest {
+	background: #C92228;
+}
+#shareicons a.xing {
+	background: #126567;
+}
+#shareicons a.paypal {
+	background: #1e477a;
+}
+#shareicons a.youtube {
+	background: #de1f26;
+}
+#shareicons a.vimeo-square {
+	background: #4EBBFF;
+}
+#shareicons a.rss {
+	background: #fea81d;
+}
+
+/* Posts & Pages */
+
+/* Pagination */
+.pag {
+	text-align: left;
+	background: none;
+}
+.pag li a,
+.pag li span {
+	border: none;
+	margin-left: 3px;
+}
+.pag li:first-child a,
+.pag li:first-child span {
+	margin-left: 0;
+}
+.pag li a {
+	background: #fff;
+}
+
+/* Sidebars */
+
+#sidebar h3.widget-title {
+	text-transform: none;
+}
+
+/* Default Widget - Tag Cloud */
+.widget_tag_cloud a {
+	font-size: 12px !important;
+	color: inherit;
+	background: none;
+	border: 1px solid #e2e2e2;
+	padding: 3px 8px !important;
+	margin: 3px 1px !important;
+	border-radius: 0;
+}
+.widget_tag_cloud a:hover {
+	background: none;
+	border-color: #1EAAF1;
+}
+#footer .widget_tag_cloud a {
+	font-size: 13px !important;
+	color: #fff;
+	background: none;
+	border: 1px solid #ddd;
+}
+#footer .widget_tag_cloud a:hover {
+	color: #fff;
+	background: #1EAAF1;
+	border-color: #1EAAF1;
+}
+
+/* Footer */
+
+/* slick-slider */
+.entry-content  {
+	margin: 0 20px;
+	border: solid 2px #999;
+	overflow: hidden;
+	background-color: #FFF;
+}
+.slick-slide .entry-content h2{
+	text-align: center;
+
+}
+.slick-slide .entry-content a{
+	color: #888;
+	font-size: 14px;
+}
+.slick-slide .entry-header {
+	min-height: 147px;
+ }
+ .multiple-items {
+	padding: 50px 20px;
+}
+section.container.works {
+	background-image: url(images/page-01_img06.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+section.container h3 {
+	font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+	line-height: 40px;
+}
+section.container h3 span {
+	font-size: 25px;
+  color: #48c0db;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+	/* Intro */
+	#intro #intro-core {
+		text-align: center;
+		margin: 0 !important;
+	}
+	#intro .page-title,
+	#intro #breadcrumbs {
+		display: block;
+	}
+	#intro .page-title {
+		margin-left: 0;
+	}
+	#intro .page-title:after {
+		display: none;
+	}
+	#intro #breadcrumbs {
+		position: relative;
+		margin-bottom: 15px;
+	}
+	#intro #breadcrumbs:after {
+		content: "";
+		margin: auto;
+		bottom: -10px;
+		left: 0;
+		right: 0;
+		width: 100px;
+		position: absolute;
+		border-left: none !important;
+		border-bottom: 1px solid #1EAAF1;
+	}
+}
+
+/* <!--採用情報のイケメン背景--> */
+.bg-image-saiyo{
+	background-image: url(images/top_sriderimg01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+    margin: 60px auto;
+    height: 70vh;
+    width: 100%;
+}
+.bg-image-saiyo .container{
+	display: flex;
+	color: rgba(255, 255, 255, 0.9);
+	flex-wrap: wrap;
+	padding: 20px 40px 93px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.bg-image-saiyo .container h3{	
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 3.4em;
+	margin-bottom: 5px;
+}
+	.bg-image-saiyo .container h3 i{
+		font-size: 0.8em;
+    margin-right: 12px;
+    margin-top: 18px;
+		}
+.bg-image-saiyo .container p{	
+	font-size: 1.3em;
+    font-family: Console;
+}
+.bg-image-saiyo .block{
+	width: 50%;
+  box-sizing: border-box
+}
+.bg-image-saiyo .left_top
+,.bg-image-saiyo .right_top
+{
+	padding-top: 65px;
+	position: relative;
+}
+
+.bg-image-saiyo .left_bottom
+,.bg-image-saiyo .left_top
+{
+	padding-left: 75px;
+	border-right: solid 1px rgba(255,255,255,.2);
+	width: 33%;
+}
+
+.bg-image-saiyo .right_top
+,.bg-image-saiyo .right_bottom
+{
+	width: 67%;
+	padding-left: 80px;
+}
+.bg-image-saiyo .right_top button{
+	float: right;
+  margin-right: 30px;
+	color: #FFF;
+	font-size: 15px;
+	padding: 13px 35px;
+	background-color: #1EAAF1
+}
+.bg-image-saiyo hr{
+	width: 230px;
+	position: absolute;
+	left: 74px;
+	top: 198px;
+	background-color: rgba(255,255,255,0.2);
+}
+.bg-image-saiyo .left_top hr:nth-of-type(2)
+,.bg-image-saiyo .right_top hr:nth-of-type(2)
+{
+	left: 104px;top: 218px;
+}
+
+
+/* <!--採用情報のイケメン背景--> */
+
+/* お問い合わせ */
+h4.text-center.text-md-left.offset-1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+h4.text-center.text-md-left.offset-1 span{
+	font-size: 25px;
+	color: #48c0db;
+	text-shadow: 0 0 17px #fbfbfb;
+}
+.col-md-6.text-center.text-md-left {
+	line-height: 3em;
+	margin-bottom: 100px;
+	font-size: 15px;
+}
+.col-md-6.text-center.text-md-left p {
+	margin-bottom: 70px;
+}
+.col-md-6.text-center.text-md-left hr {
+	background-color: gray;
+}
+a.btn.btn-sm.btn-secondary-1 {
+	background-color: #eb1a2f;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 16px 26px;
+}
+
+/* TWITTER */
+.twitter h4 {
+	font-size: 35px;
+	font-weight: bold;
+	color: #48c0db;
+}
+
